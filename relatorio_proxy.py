@@ -1,5 +1,3 @@
-from user import User
-
 class RelatorioSender:
     def send(self, relatorio, user):
         print(f"[Enviando Relatório para o usuário {user.nome}...]")
